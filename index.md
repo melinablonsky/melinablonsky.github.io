@@ -9,15 +9,11 @@
 			<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		 	<meta name="viewport" content="width=device-width, initial-scale=1">
 		  	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-		  	<link rel="icon" type="image/png" href="images/meliprofile.png">
 	
 		<!-- Google Fonts -->
 		  	<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
 		  	<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap" rel="stylesheet">
 		  	<link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@200;300&display=swap" rel="stylesheet">
-		  	<link href="https://fonts.googleapis.com/css2?family=Karla&family=Rubik:wght@500&display=swap" rel="stylesheet">
-
 
 		<!-- Fontawesome -->
 			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
@@ -34,99 +30,39 @@
 	
 	<!-- Content displayed in browser -->
 
-		<!-- NAVBAR -->
+		<!-- NAVBAR 
 		<ul class="nav justify-content-end">
 		  <li class="nav-item">
-		    <a class="nav-link active" href="#">Inicio</a>
+		    <a class="nav-link active" href="index.html">Inicio</a>
 		  </li>
 		  <li class="nav-item">
-		    <a class="nav-link active" href="comingsoon.html">Mi Fábrica</a>
+		    <a class="nav-link active" href="#">Mi Fábrica</a>
 		  </li>
 		  <li class="nav-item">
-		    <a class="nav-link active" href="comingsoon.html">Mi Blog</a>
+		    <a class="nav-link active" href="#">Ultralearning Challenge</a>
 		  </li>
 		  <li class="nav-item">
-		    <a class="nav-link active" href="comingsoon.html">Mi Experiencia</a>
+		    <a class="nav-link active" href="#">Mi CV</a>
 		  </li>
 		</ul>
 
+		-->
 
-		<!-- Banner -->		
+		<!-- Contenido -->
 
-		<div class="banner d-flex flex-column">
-			<div class="banner-content">
-				<h1>Hola, soy Meli.</h1>
-				<h2>¿Sabias que una persona absorbe 34 gigabytes de información por día? <span style="color:#F2C029">...eso es menos del 10% de toda la información a la que estamos expuestos.</span></h2>
-				<p class="medium">Por eso diseño contenidos simples, significativos y atractivos para la enseñanza digital.</p>	
+		<div class="container">
+			<div class="soon">
+				<h2>Coming Soon</h2>
+				<img src="images/comingsoon.gif" alt="image cap">
 			</div>
 		</div>
-			
-		<!-- Card's Container -->		
-
-		
-		<dir class="container">
-			<div class="row">
-				
-				<div class="col-12 col-sm-4 d-flex justify-content-center my-5">
-					<div class="card shadow d-flex justify-content-center align-items-center" style="width: 90%;">
-					  <img class="card-img-top" src="images/factory.png" alt="Card image cap">
-					  <div class="card-body">
-					    <h5 class="card-title">Mi Fábrica</h5>
-					    <p class="card-text">Mirá los proyectos en los que estuve trabajando.</p>
-					    <a href="comingsoon.html" target="blank" class="btn btn-primary">Ver más</a>
-					  </div>
-					</div>
-				</div>
-
-				<div class="col-12 col-sm-4 d-flex justify-content-center my-5">
-					<div class="card shadow d-flex justify-content-center align-items-center" style="width: 90%">
-					  <img class="card-img-top" src="images/mountain2.png" alt="Card image cap">
-					  <div class="card-body">
-					    <h5 class="card-title">Mi Blog</h5>
-					    <p class="card-text">Recomendaciones de Software, MOOCs ¡y un poco de todo!</p>
-					    <a href="comingsoon.html" target="blank" class="btn btn-primary">Ver más</a>
-					  </div>
-					</div>
-				</div>
-
-				<div class="col-12 col-sm-4 d-flex justify-content-center my-5">
-					<div class="card shadow d-flex justify-content-center align-items-center" style="width: 90%">
-					  <img class="card-img-top" src="images/meliprofile.png" alt="Card image cap">
-					  <div class="card-body">
-					    <h5 class="card-title">Mi Experiencia</h5>
-					    <p class="card-text">Visualizá y descargá mi CV.</p>
-					    <a href="comingsoon.html" target="blank" class="btn btn-primary">Ver más</a>
-					  </div>
-					</div>
-				</div>
-
-			</div>
-		</dir>
-
-	<!-- Contacto -->				
-
-	<div class="contact">
-		<h5 class="contact-title">Escribime :)</h5>
-		<div class="contact-body">
-			<div class="contact-links">
-				<a href="mailto:melinablonsky@gmail.com"><i class="fas fa-envelope-square"></i></a>
-				<p class="contacto">melinblonsky@gmail.com</p>
-			</div>	
-			<div class="contact-links">	
-				<a href="https://www.linkedin.com/in/melinablonsky/"><i class="fab fa-linkedin"></i></a>
-				<p class="contacto">/melinablonsky</p>
-			</div>
-		</div>
-	</div>
-
-
 
 	</body>
 
 
 
 	<!-- Footer -->
-	<div class="footer">
+	<div class="footer footer-fixed">
 	  <div class="footer-copyright">
 	  	Hecho con <i class="fas fa-heart"></i> por Melina Blonsky
 	  </div>
@@ -134,4 +70,5 @@
 
 
 </html>
+
 
