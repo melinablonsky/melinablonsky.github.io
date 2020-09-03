@@ -150,8 +150,9 @@ a.btn.btn-primary {
 	padding: 40px;
 }
 
-
-
+.soon-video {
+	max-width: 100%;
+}
 
 
 /* Extra small devices (phones, 600px and down) */
